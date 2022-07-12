@@ -23,11 +23,9 @@ public class Radio {
     /* Оперирование станциями */
 
     public void switchStationUp() {
-        if (station == 9) {
-            setStation(0);
-            return;
+        if (station < 9) {
+            setStation(station+ 1);
         }
-        setStation(station + 1);
     }
 
     public void switchStationDown() {

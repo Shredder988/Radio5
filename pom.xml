@@ -37,10 +37,10 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>
+
                 <executions>
                     <execution>
-                        <id>prepare-agent-8485hf8r4h</id>
-                        <!--                        <phase>initialize</phase>-->
+                        <id>prepare-agent</id>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
